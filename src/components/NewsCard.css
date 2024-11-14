@@ -1,0 +1,29 @@
+/* src/components/NewsCard.css */
+.news-card {
+    width: calc(33.333% - 20px);
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.news-card:hover {
+    transform: scale(1.02);
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+}
+
+.news-card h3 {
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.news-card p {
+    margin: 10px;
+    color: #555; /* Slightly darker color for description */
+}

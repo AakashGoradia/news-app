@@ -1,0 +1,47 @@
+/* src/components/NewsDetail.css */
+.news-detail {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    background-color: white;
+    border-left: 2px solid #ddd;
+    padding: 20px;
+    overflow-y: auto;
+    height: 100vh;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-detail h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.news-detail img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.news-detail p {
+    margin-bottom: 10px;
+}
+
+.news-detail a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.news-detail a:hover {
+    text-decoration: underline;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
